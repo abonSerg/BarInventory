@@ -8,7 +8,7 @@ namespace MigrationTool
 {
     public class MigrationService
     {
-        private const string InitialSiteVersion = "0.0.1";
+        private const string InitialSiteVersion = "0.0.0";
 
         private readonly IScriptRunner scriptRunner;
         private readonly IScriptFileReader scriptReader;
